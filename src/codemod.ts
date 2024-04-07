@@ -31,7 +31,7 @@ export function runCodemod(
       tsConfigFilePath: tsConfigFilePath,
       skipAddingFilesFromTsConfig: true
     });
-    project.addExistingSourceFile(filePath);
+    project.addSourceFileAtPath(filePath);
     const personFile = project.getSourceFile(filePath);
     if (personFile) {
       return transform(personFile, transformArgs);
