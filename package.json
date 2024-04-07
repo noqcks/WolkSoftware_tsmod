@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "12.7.8",
-    "arg": "4.1.1",
+    "arg": "5.0.2",
     "ts-morph": "4.0.1",
     "ts-node": "8.4.1",
     "typescript": "3.6.3"
