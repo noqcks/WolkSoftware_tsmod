@@ -29,7 +29,7 @@ export function runCodemod(
   try {
     const project = new Project({
       tsConfigFilePath: tsConfigFilePath,
-      addFilesFromTsConfig: false
+      skipAddingFilesFromTsConfig: true
     });
     project.addExistingSourceFile(filePath);
     const personFile = project.getSourceFile(filePath);
